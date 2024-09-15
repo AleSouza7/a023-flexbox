@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-main{
+main {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -12,7 +12,7 @@ main{
   background-color: orange;
 }
 
-section{
+section {
   height: 100px;
   background-color: steelblue;
   color: white;
@@ -21,18 +21,41 @@ section{
   align-items: center;
   flex-basis: 80px;
 }
-
-#section-1{
+main{
+  display: flex;
+  justify-content: center
 }
 
-#section-2{
+body{
+  background-color: black;
 }
 
-#section-3{
+#section-1 {
+  display: flex;
+  order: 1;
+  flex-grow: 0;
 }
 
-#section-4{
+#section-2 {
+  display: flex;
+  order: 2;
+  flex-grow: 1;  
 }
 
-#section-5{
+#section-3 {
+  display: flex;
+  order: 3;
+  flex-grow: 2;  
+}
+
+#section-4 {  
+  display: flex;
+  order: 4;
+  flex-grow: 2;  
+}
+
+#section-5 {
+  display: flex;
+  order: 0;
+  flex-grow: 0;  
 }
